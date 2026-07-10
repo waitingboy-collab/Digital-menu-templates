@@ -1,0 +1,16 @@
+/* theme.css — брандирани класове, управлявани от config.js чрез CSS променливи.
+   Не пипай тук за нов клиент — само в config.js. */
+
+.brand-text        { color: var(--brand-primary); }
+.brand-bg           { background-color: var(--brand-primary); }
+.brand-bg:hover      { background-color: var(--brand-primary-dark); }
+
+.accent-text        { color: var(--brand-accent); }
+.accent-bg           { background-color: var(--brand-accent); }
+.accent-bg:hover      { background-color: var(--brand-accent-dark); }
+
+.brand-focus:focus  { outline-color: var(--brand-primary); }
+
+.brand-bg-gradient {
+    background-image: linear-gradient(to bottom, var(--brand-bg-from), var(--brand-bg-via), var(--brand-bg-to));
+}
