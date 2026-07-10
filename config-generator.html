@@ -7,8 +7,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
 <style>
     :root{
-        --bg:#12181b; --panel:#1a2226; --panel-2:#212b30;
-        --line:#2c383f; --text:#e6ede9; --muted:#8ba39a;
+        --bg:#f4f6f5; --panel:#ffffff; --panel-2:#f0f3f1;
+        --line:#dbe2de; --text:#1c2624; --muted:#5b6b66;
         --accent:#d97706; --accent-2:#155e75;
         --mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
     }
@@ -32,7 +32,7 @@
 
     .panel{
         background:var(--panel); border:1px solid var(--line);
-        border-radius:12px; padding:20px;
+        border-radius:12px; padding:20px; box-shadow:0 1px 3px rgba(28,38,36,0.05);
     }
     .panel h2{
         font-size:13px; text-transform:uppercase; letter-spacing:.08em;
@@ -78,9 +78,9 @@
     button.copy:active{transform:translateY(1px);}
     button.copy.copied{background:#7ea36b; color:#0e1a0a;}
     pre{
-        background:#0e1315; border:1px solid var(--line); border-radius:8px;
+        background:#fbfaf7; border:1px solid var(--line); border-radius:8px;
         padding:16px; font-family:var(--mono); font-size:12.5px; line-height:1.6;
-        color:#cfe8dd; overflow-x:auto; margin:0; white-space:pre;
+        color:#28352f; overflow-x:auto; margin:0; white-space:pre;
     }
     .k{color:#8fb6a8;} .s{color:#e0b06a;} .c{color:#5f7169;}
 </style>
